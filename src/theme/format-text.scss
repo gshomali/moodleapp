@@ -228,7 +228,9 @@ ion-app.app-root .item core-format-text {
 ion-app.app-root {
   // Images in ion-card have width 100% and display block. Remove that when the image is in core-format-text.
   ion-card core-format-text img {
-    width: min-content;
+    //width: min-content; // Property is ignored due to the display. With 'display: inline', 
+                        // the width, height, margin-top, margin-bottom, and float properties have no effect.scss(propertyIgnoredDueToDisplay)
+
     display: inline;
   }
 

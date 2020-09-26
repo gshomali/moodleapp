@@ -208,6 +208,7 @@ function build_lang($lang, $keys) {
     // Add the translation to the array.
     foreach ($keys as $key => $value) {
         $string = get_translation_strings($langfoldername, $value->file, $override_langfolder);
+        $strVal = $string[$value->string];
         // Apply translations.
         if (!$string) {
             if ($value->file == 'donottranslate') {
@@ -223,7 +224,7 @@ function build_lang($lang, $keys) {
             }
 
             if (TOTRANSLATE) {
-                echo "\n\t\tTo translate $value->string on $value->file";
+                echo "\n\t\tTo translate $strVal on $value->file";
             }
             continue;
         }
@@ -238,7 +239,7 @@ function build_lang($lang, $keys) {
                 }
             }
             if (TOTRANSLATE && !isset($string[$value->string])) {
-                echo "\n\t\tTo translate $value->string on $value->file";
+                echo "\n\t\tTo translate $strVal on $value->file";
             }
             continue;
         } else {
