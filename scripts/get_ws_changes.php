@@ -24,7 +24,7 @@
  */
 
 if (!isset($argv[1])) {
-    echo "ERROR: Please pass the path to the folder containing the Moodle installations as the first parameter.\n";
+    echo "ERROR: Please pass the path to the folder containing the Edu101 installations as the first parameter.\n";
     die();
 }
 

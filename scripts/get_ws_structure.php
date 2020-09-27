@@ -24,7 +24,7 @@
  */
 
 if (!isset($argv[1])) {
-    echo "ERROR: Please pass the Moodle path as the first parameter.\n";
+    echo "ERROR: Please pass the Edu101 path as the first parameter.\n";
     die();
 }
 

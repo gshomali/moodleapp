@@ -23,7 +23,7 @@
     <rescap:Capability Name="runFullTrust"/>
   </Capabilities>
   <Applications>
-    <Application Id="net.edu101.academy" Executable="app\Moodle Desktop.exe" EntryPoint="Windows.FullTrustApplication">
+    <Application Id="net.edu101.academy" Executable="app\Edu101 Desktop.exe" EntryPoint="Windows.FullTrustApplication">
       <uap:VisualElements
        BackgroundColor="#464646"
        DisplayName="Edu101 Academy Desktop"
@@ -34,7 +34,7 @@
       </uap:VisualElements>
       <Extensions>
         <uap:Extension Category="windows.protocol">
-          <uap:Protocol Name="moodlemobile">
+          <uap:Protocol Name="edu101mobile">
             <uap:DisplayName>Edu101 Academy Mobile URI Scheme</uap:DisplayName>
           </uap:Protocol>
         </uap:Extension>

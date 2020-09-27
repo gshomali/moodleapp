@@ -25,7 +25,7 @@
  */
 
 if (!isset($argv[1])) {
-    echo "ERROR: Please pass the Moodle path as the first parameter.\n";
+    echo "ERROR: Please pass the Edu101 path as the first parameter.\n";
     die();
 }
 
@@ -49,7 +49,7 @@ require_once('ws_to_ts_functions.php');
 $structure = get_ws_structure($wsname, $useparams);
 
 if ($structure === false) {
-    echo "ERROR: The WS wasn't found in this Moodle installation.\n";
+    echo "ERROR: The WS wasn't found in this Edu101 installation.\n";
     die();
 }
 

@@ -1,4 +1,4 @@
-// (C) Copyright 2015 Moodle Pty Ltd.
+// (C) Copyright 2015 Edu101 Pty Ltd.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -115,7 +115,7 @@ export class CoreIframeComponent implements OnChanges {
 
                     if (urlParts.domain) {
                         await win.WKWebViewCookies.setCookie({
-                            name: 'MoodleAppCookieForWKWebView',
+                            name: 'Edu101AppCookieForWKWebView',
                             value: '1',
                             domain: urlParts.domain,
                         });

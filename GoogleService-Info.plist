@@ -11,15 +11,15 @@
     <key>REVERSED_CLIENT_ID</key>
     <string></string>
     <key>API_KEY</key>
-    <string></string>
+    <string>AIzaSyD6GWn9j-ram-f-yPV-kaveGCmWqjvjbmU</string>
     <key>GCM_SENDER_ID</key>
     <string></string>
     <key>PLIST_VERSION</key>
     <string>1</string>
     <key>BUNDLE_ID</key>
-    <string>com.moodle.moodlemobile</string>
+    <string>net.edu101.academy</string>
     <key>PROJECT_ID</key>
-    <string>moodlemobile-push</string>
+    <string>edu101-academy</string>
     <key>STORAGE_BUCKET</key>
     <string></string>
     <key>IS_ADS_ENABLED</key>
