@@ -82,7 +82,7 @@ export class CoreLoginSiteOnboardingPage {
 
         this.saveOnboardingDone();
 
-        CoreUtils.instance.openInBrowser('https://moodle.com/getstarted/');
+        CoreUtils.instance.openInBrowser('https://edu101.net/getstarted/');
 
         this.viewCtrl.dismiss();
     }
