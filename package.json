@@ -252,7 +252,7 @@
       {
         "name": "Edu101 Academy Mobile URL",
         "schemes": [
-          "moodlemobile"
+          "edu101mobile"
         ],
         "role": "Viewer"
       }
